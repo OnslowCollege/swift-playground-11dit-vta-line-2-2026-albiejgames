@@ -1,63 +1,69 @@
-@main
+ @main
 struct SwiftPlayground {
-    static func main() {
 
-        let character1 = "Julius"
-        let character2 = "Ardiene"
-        let place1 = "Onslow College"
-        let place2 = "The Underground Server Room"
-        let place3 = "The Neon City of Aotearoa Grid"
-        
-        let object1 = "glitching laptop"
-        let object2 = "encrypted USB drive"
-        let object3 = "mysterious black cap signal receiver"
-        
-        let emotion1 = "curious"
-        let emotion2 = "fearless"
-        let emotion3 = "unstoppable"
-        
-        let story = """
-        Julius and Ardiene were two students at \(place1), but they were never ordinary.
+static func main () {
 
-        One afternoon, while everyone else was leaving class, Julius noticed something strange coming from a \(object1) left on a desk. It wasn’t supposed to be there. Ardiene, calm as ever, leaned over and said, “This isn’t normal school tech.”
+let name = "Albert"
+print (name)
 
-        The screen flickered and displayed a single message:  
-        "FIND THE SOURCE."
+let lastName = "O'Reilly"
+print (lastName) 
 
-        That was enough.
+let greeting = "Please welcome \(lastName)"
+print (greeting)
 
-        The two of them, \(emotion1) and \(emotion2) by nature, decided to follow the signal. It led them beneath the school, past locked doors and forgotten hallways, into \(place2).
+let schoolName = "Bob's school" 
+print (schoolName)
 
-        There, they discovered rows of old servers still humming, even though no one had powered them in years. In the center of the room was a terminal glowing with the same message.
+let timeTaken = "6 hours"
+print (timeTaken)
 
-        Julius plugged in the \(object2) without hesitation. Ardiene stood watch, listening for anything moving in the dark.
+let student = "Jeff"
+print (student)
 
-        Suddenly, the system activated.
+let studentAge = "15"
+print (studentAge)
 
-        A map appeared—spanning far beyond the school, beyond the city, into \(place3), a digital world layered over reality itself.
+let studentYear = "11"
+print (studentYear)
 
-        “We shouldn’t be seeing this,” Ardiene said quietly.
+let paragraph = "\(student) is a \(studentAge) year old in year \(studentYear) at \(schoolName). He spends \(timeTaken) at school each day, and goes to school 5 days a week. He is a legend."
+print (paragraph)
 
-        “But we are,” Julius replied.
+// Doing maths operations
 
-        The moment they stepped back, alarms should have triggered—but instead, the doors opened on their own. As if something wanted them to continue.
+let x = 12 
+let y = 10
 
-        A final item dropped from the terminal: the \(object3).
+let added = x+y 
+let subtracted = x-y
+let multiplied = x*y
+let divided = x/y
 
-        When Ardiene picked it up, the entire server room lit up like it had been waiting for him specifically.
+print (added)
+print (subtracted)
+print (multiplied)
+print (divided)
 
-        A voice echoed through the speakers:
-        "Two have been chosen. The system is unstable. Continue the path or shut it down."
+// Maths operations: task 1
 
-        Julius and Ardiene looked at each other.
+// Setting amount
+let amount = 18.5
+let tip = amount / 5
 
-        No hesitation.
+print (tip)
 
-        Together, they stepped forward into the unknown network, becoming part of something far larger than Onslow College—something alive, digital, and waiting.
+// Maths operations: task 2
 
-        And as the doors sealed behind them, the world they knew began to change.
-        """
+var milkAtStart = 20.0 
+let latte = 0.2
+let customerOrder = 25.0
 
-        print(story)
-    }
+var milkLeft = milkAtStart - (latte * customerOrder)
+
+print (milkLeft)
+
 }
+}
+
+

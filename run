@@ -1,0 +1,339 @@
+Script started on 2026-04-30 02:41:09+00:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="202" LINES="13"]
+[?2004h]0;root@codespaces-c32bc7: /workspaces/swift-playground-11dit-vta-line-2-2026-albiejgamesroot@codespaces-c32bc7:/workspaces/swift-playground-11dit-vta-line-2-2026-albiejgames# ws  script     wif ftr  run
+[?2004l[2K[0/1] Planning build[2K[1/1] Planning build
+[2KBuilding for debugging...
+[2K[0/3] Write sources[2K[1/3] Write sources[2K[1/3] Write swift-version-24593BA9C3E375BF.txt[2K[2/3] Write swift-version-24593BA9C3E375BF.txt[2K[2/4] Write swift-version-24593BA9C3E375BF.txt[2K[2/5] Write swift-version-24593BA9C3E375BF.txt[2K[2/5] Write swift-version-24593BA9C3E375BF.txt[2Kerror: emit-module command failed with exit code 1 (use -v to see invocation)
+[2K[3/5] Emitting module SwiftPlayground[2K/workspaces/swift-playground-11dit-vta-line-2-2026-albiejgames/Sources/SwiftPlayground/SwiftPlayground.swift:93:27: [1;31merror: [1;39minvalid escape sequence in literal[0;0m
+ [0;36m91 |[0;0m     print (Albert)
+ [0;36m92 |[0;0m     let firstname = readline (Albert)
+ [0;36m93 |[0;0m     print ("your name is \Albert")
+    [0;36m|[0;0m                           `- [1;31merror: [1;39minvalid escape sequence in literal[0;0m
+ [0;36m94 |[0;0m     
+ [0;36m95 |[0;0m     let isOldEnough = 16 >=18
+[2K[4/5] Compiling SwiftPlayground SwiftPlayground.swift[2K/workspaces/swift-playground-11dit-vta-line-2-2026-albiejgames/Sources/SwiftPlayground/SwiftPlayground.swift:93:27: [1;31merror: [1;39minvalid escape sequence in literal[0;0m
+ [0;36m91 |[0;0m     print (Albert)
+ [0;36m92 |[0;0m     let firstname = readline (Albert)
+ [0;36m93 |[0;0m     print ("your name is \Albert")
+    [0;36m|[0;0m                           `- [1;31merror: [1;39minvalid escape sequence in literal[0;0m
+ [0;36m94 |[0;0m     
+ [0;36m95 |[0;0m     let isOldEnough = 16 >=18
+
+/workspaces/swift-playground-11dit-vta-line-2-2026-albiejgames/Sources/SwiftPlayground/SwiftPlayground.swift:95:25: [1;31merror: [1;39mconsecutive statements on a line must be separated by ';'[0;0m
+ [0;36m93 |[0;0m     print ("your name is \Albert")
+ [0;36m94 |[0;0m     
+ [0;36m95 |[0;0m     let isOldEnough = 16 >=18
+    [0;36m|[0;0m                         `- [1;31merror: [1;39mconsecutive statements on a line must be separated by ';'[0;0m
+ [0;36m96 |[0;0m     print (isOldEnough)
+ [0;36m97 |[0;0m     
+
+/workspaces/swift-playground-11dit-vta-line-2-2026-albiejgames/Sources/SwiftPlayground/SwiftPlayground.swift:91:12: [1;31merror: [1;39mcannot find 'Albert' in scope[0;0m
+ [0;36m89 |[0;0m     
+ [0;36m90 |[0;0m     
+ [0;36m91 |[0;0m     print ([4;39mAlbert[0;0m)
+    [0;36m|[0;0m            `- [1;31merror: [1;39mcannot find 'Albert' in scope[0;0m
+ [0;36m92 |[0;0m     let firstname = readline (Albert)
+ [0;36m93 |[0;0m     print ("your name is \Albert")
+
+/workspaces/swift-playground-11dit-vta-line-2-2026-albiejgames/Sources/SwiftPlayground/SwiftPlayground.swift:92:21: [1;31merror: [1;39mcannot find 'readline' in scope[0;0m
+ [0;36m90 |[0;0m     
+ [0;36m91 |[0;0m     print (Albert)
+ [0;36m92 |[0;0m     let firstname = [4;39mreadline[0;0m (Albert)
+    [0;36m|[0;0m                     `- [1;31merror: [1;39mcannot find 'readline' in scope[0;0m
+ [0;36m93 |[0;0m     print ("your name is \Albert")
+ [0;36m94 |[0;0m     
+
+/workspaces/swift-playground-11dit-vta-line-2-2026-albiejgames/Sources/SwiftPlayground/SwiftPlayground.swift:92:31: [1;31merror: [1;39mcannot find 'Albert' in scope[0;0m
+ [0;36m90 |[0;0m     
+ [0;36m91 |[0;0m     print (Albert)
+ [0;36m92 |[0;0m     let firstname = readline ([4;39mAlbert[0;0m)
+    [0;36m|[0;0m                               `- [1;31merror: [1;39mcannot find 'Albert' in scope[0;0m
+ [0;36m93 |[0;0m     print ("your name is \Albert")
+ [0;36m94 |[0;0m     
+
+/workspaces/swift-playground-11dit-vta-line-2-2026-albiejgames/Sources/SwiftPlayground/SwiftPlayground.swift:95:26: [1;31merror: [1;39m'>=' is not a prefix unary operator[0;0m
+ [0;36m93 |[0;0m     print ("your name is \Albert")
+ [0;36m94 |[0;0m     
+ [0;36m95 |[0;0m     let isOldEnough = 16 >=18
+    [0;36m|[0;0m                          `- [1;31merror: [1;39m'>=' is not a prefix unary operator[0;0m
+ [0;36m96 |[0;0m     print (isOldEnough)
+ [0;36m97 |[0;0m     
+
+[?2004h]0;root@codespaces-c32bc7: /workspaces/swift-playground-11dit-vta-line-2-2026-albiejgamesroot@codespaces-c32bc7:/workspaces/swift-playground-11dit-vta-line-2-2026-albiejgames# swift run
+[?2004l[2KBuilding for debugging...
+[2K[0/3] Write sources[2K[1/3] Write sources[2K[1/3] Write swift-version-24593BA9C3E375BF.txt[2K[2/3] Write swift-version-24593BA9C3E375BF.txt[2K[2/4] Write swift-version-24593BA9C3E375BF.txt[2K[2/5] Write swift-version-24593BA9C3E375BF.txt[2K[3/5] Emitting module SwiftPlayground[2K[4/5] Compiling SwiftPlayground SwiftPlayground.swift[2K/workspaces/swift-playground-11dit-vta-line-2-2026-albiejgames/Sources/SwiftPlayground/SwiftPlayground.swift:5:13: [1;33mwarning: [1;39minitialization of immutable value 'character1' was never used; consider replacing with assignment to '_' or removing it[0;0m [#no-usage]
+  [0;36m3 |[0;0m     static func main() {
+  [0;36m4 |[0;0m 
+  [0;36m5 |[0;0m         let character1 = "Julius"
+    [0;36m|[0;0m             `- [1;33mwarning: [1;39minitialization of immutable value 'character1' was never used; consider replacing with assignment to '_' or removing it[0;0m [#no-usage]
+  [0;36m6 |[0;0m         let character2 = "Ardiene"
+  [0;36m7 |[0;0m         let place1 = "Onslow College"
+
+/workspaces/swift-playground-11dit-vta-line-2-2026-albiejgames/Sources/SwiftPlayground/SwiftPlayground.swift:6:13: [1;33mwarning: [1;39minitialization of immutable value 'character2' was never used; consider replacing with assignment to '_' or removing it[0;0m [#no-usage]
+  [0;36m4 |[0;0m 
+  [0;36m5 |[0;0m         let character1 = "Julius"
+  [0;36m6 |[0;0m         let character2 = "Ardiene"
+    [0;36m|[0;0m             `- [1;33mwarning: [1;39minitialization of immutable value 'character2' was never used; consider replacing with assignment to '_' or removing it[0;0m [#no-usage]
+  [0;36m7 |[0;0m         let place1 = "Onslow College"
+  [0;36m8 |[0;0m         let place2 = "The Underground Server Room"
+
+/workspaces/swift-playground-11dit-vta-line-2-2026-albiejgames/Sources/SwiftPlayground/SwiftPlayground.swift:17:13: [1;33mwarning: [1;39minitialization of immutable value 'emotion3' was never used; consider replacing with assignment to '_' or removing it[0;0m [#no-usage]
+ [0;36m15 |[0;0m         let emotion1 = "curious"
+ [0;36m16 |[0;0m         let emotion2 = "fearless"
+ [0;36m17 |[0;0m         let emotion3 = "unstoppable"
+    [0;36m|[0;0m             `- [1;33mwarning: [1;39minitialization of immutable value 'emotion3' was never used; consider replacing with assignment to '_' or removing it[0;0m [#no-usage]
+ [0;36m18 |[0;0m         
+ [0;36m19 |[0;0m         let story = """
+
+/workspaces/swift-playground-11dit-vta-line-2-2026-albiejgames/Sources/SwiftPlayground/SwiftPlayground.swift:19:13: [1;33mwarning: [1;39minitialization of immutable value 'story' was never used; consider replacing with assignment to '_' or removing it[0;0m [#no-usage]
+ [0;36m17 |[0;0m         let emotion3 = "unstoppable"
+ [0;36m18 |[0;0m         
+ [0;36m19 |[0;0m         let story = """
+    [0;36m|[0;0m             `- [1;33mwarning: [1;39minitialization of immutable value 'story' was never used; consider replacing with assignment to '_' or removing it[0;0m [#no-usage]
+ [0;36m20 |[0;0m         Julius and Ardiene were two students at \(place1), but they were never ordinary.
+ [0;36m21 |[0;0m 
+
+/workspaces/swift-playground-11dit-vta-line-2-2026-albiejgames/Sources/SwiftPlayground/SwiftPlayground.swift:64:5: [1;33mwarning: [1;39minitialization of immutable value 'added2' was never used; consider replacing with assignment to '_' or removing it[0;0m [#no-usage]
+ [0;36m62 |[0;0m 
+ [0;36m63 |[0;0m let added = x + y
+ [0;36m64 |[0;0m let added2 = y + x
+    [0;36m|[0;0m     `- [1;33mwarning: [1;39minitialization of immutable value 'added2' was never used; consider replacing with assignment to '_' or removing it[0;0m [#no-usage]
+ [0;36m65 |[0;0m let subtracted = x - y
+ [0;36m66 |[0;0m let subtracted2 = y - x
+
+/workspaces/swift-playground-11dit-vta-line-2-2026-albiejgames/Sources/SwiftPlayground/SwiftPlayground.swift:66:5: [1;33mwarning: [1;39minitialization of immutable value 'subtracted2' was never used; consider replacing with assignment to '_' or removing it[0;0m [#no-usage]
+ [0;36m64 |[0;0m let added2 = y + x
+ [0;36m65 |[0;0m let subtracted = x - y
+ [0;36m66 |[0;0m let subtracted2 = y - x
+    [0;36m|[0;0m     `- [1;33mwarning: [1;39minitialization of immutable value 'subtracted2' was never used; consider replacing with assignment to '_' or removing it[0;0m [#no-usage]
+ [0;36m67 |[0;0m let multiplied = x * y
+ [0;36m68 |[0;0m let multiplied2 = y * x
+
+/workspaces/swift-playground-11dit-vta-line-2-2026-albiejgames/Sources/SwiftPlayground/SwiftPlayground.swift:68:5: [1;33mwarning: [1;39minitialization of immutable value 'multiplied2' was never used; consider replacing with assignment to '_' or removing it[0;0m [#no-usage]
+ [0;36m66 |[0;0m let subtracted2 = y - x
+ [0;36m67 |[0;0m let multiplied = x * y
+ [0;36m68 |[0;0m let multiplied2 = y * x
+    [0;36m|[0;0m     `- [1;33mwarning: [1;39minitialization of immutable value 'multiplied2' was never used; consider replacing with assignment to '_' or removing it[0;0m [#no-usage]
+ [0;36m69 |[0;0m let divided = x / y
+ [0;36m70 |[0;0m let divided2 = y / x
+
+/workspaces/swift-playground-11dit-vta-line-2-2026-albiejgames/Sources/SwiftPlayground/SwiftPlayground.swift:70:5: [1;33mwarning: [1;39minitialization of immutable value 'divided2' was never used; consider replacing with assignment to '_' or removing it[0;0m [#no-usage]
+ [0;36m68 |[0;0m let multiplied2 = y * x
+ [0;36m69 |[0;0m let divided = x / y
+ [0;36m70 |[0;0m let divided2 = y / x
+    [0;36m|[0;0m     `- [1;33mwarning: [1;39minitialization of immutable value 'divided2' was never used; consider replacing with assignment to '_' or removing it[0;0m [#no-usage]
+ [0;36m71 |[0;0m let modulo = y % x
+ [0;36m72 |[0;0m let modulo2 = x % y
+
+/workspaces/swift-playground-11dit-vta-line-2-2026-albiejgames/Sources/SwiftPlayground/SwiftPlayground.swift:72:5: [1;33mwarning: [1;39minitialization of immutable value 'modulo2' was never used; consider replacing with assignment to '_' or removing it[0;0m [#no-usage]
+ [0;36m70 |[0;0m let divided2 = y / x
+ [0;36m71 |[0;0m let modulo = y % x
+ [0;36m72 |[0;0m let modulo2 = x % y
+    [0;36m|[0;0m     `- [1;33mwarning: [1;39minitialization of immutable value 'modulo2' was never used; consider replacing with assignment to '_' or removing it[0;0m [#no-usage]
+ [0;36m73 |[0;0m 
+ [0;36m74 |[0;0m print("Added: \(added)")
+[2K[4/6] Compiling SwiftPlayground SwiftPlayground.swift[2K[5/6] Compiling SwiftPlayground SwiftPlayground.swift[2K[5/7] Compiling SwiftPlayground SwiftPlayground.swift[2K[5/8] Compiling SwiftPlayground SwiftPlayground.swift[2K[5/7] Compiling SwiftPlayground SwiftPlayground.swift[2K[5/7] Write Objects.LinkFileList[2K[6/7] Write Objects.LinkFileList[2K[6/7] Linking SwiftPlayground[2K[7/7] Linking SwiftPlayground
+[2KBuild of product 'SwiftPlayground' complete! (0.63s)
+Added: 15
+Added2: 15
+Subtracted: 5
+Multiplied: 50
+Divided: 2
+5 % 10 = 5
+3.7
+15.0
+q
+your name is q
+false
+[?2004h]0;root@codespaces-c32bc7: /workspaces/swift-playground-11dit-vta-line-2-2026-albiejgamesroot@codespaces-c32bc7:/workspaces/swift-playground-11dit-vta-line-2-2026-albiejgames# Swift run
+[?2004lbash: Swift: command not found
+[?2004h]0;root@codespaces-c32bc7: /workspaces/swift-playground-11dit-vta-line-2-2026-albiejgamesroot@codespaces-c32bc7:/workspaces/swift-playground-11dit-vta-line-2-2026-albiejgames# swift run
+[?2004l[2KBuilding for debugging...
+[2K[0/3] Write sources[2K[1/3] Write sources[2K[1/3] Write swift-version-24593BA9C3E375BF.txt[2K[2/3] Write swift-version-24593BA9C3E375BF.txt[2K[2/4] Write swift-version-24593BA9C3E375BF.txt[2K[2/5] Write swift-version-24593BA9C3E375BF.txt[2K[3/5] Emitting module SwiftPlayground[2K[4/5] Compiling SwiftPlayground SwiftPlayground.swift[2K/workspaces/swift-playground-11dit-vta-line-2-2026-albiejgames/Sources/SwiftPlayground/SwiftPlayground.swift:5:13: [1;33mwarning: [1;39minitialization of immutable value 'character1' was never used; consider replacing with assignment to '_' or removing it[0;0m [#no-usage]
+  [0;36m3 |[0;0m     static func main() {
+  [0;36m4 |[0;0m 
+  [0;36m5 |[0;0m         let character1 = "Julius"
+    [0;36m|[0;0m             `- [1;33mwarning: [1;39minitialization of immutable value 'character1' was never used; consider replacing with assignment to '_' or removing it[0;0m [#no-usage]
+  [0;36m6 |[0;0m         let character2 = "Ardiene"
+  [0;36m7 |[0;0m         let place1 = "Onslow College"
+
+/workspaces/swift-playground-11dit-vta-line-2-2026-albiejgames/Sources/SwiftPlayground/SwiftPlayground.swift:6:13: [1;33mwarning: [1;39minitialization of immutable value 'character2' was never used; consider replacing with assignment to '_' or removing it[0;0m [#no-usage]
+  [0;36m4 |[0;0m 
+  [0;36m5 |[0;0m         let character1 = "Julius"
+  [0;36m6 |[0;0m         let character2 = "Ardiene"
+    [0;36m|[0;0m             `- [1;33mwarning: [1;39minitialization of immutable value 'character2' was never used; consider replacing with assignment to '_' or removing it[0;0m [#no-usage]
+  [0;36m7 |[0;0m         let place1 = "Onslow College"
+  [0;36m8 |[0;0m         let place2 = "The Underground Server Room"
+
+/workspaces/swift-playground-11dit-vta-line-2-2026-albiejgames/Sources/SwiftPlayground/SwiftPlayground.swift:17:13: [1;33mwarning: [1;39minitialization of immutable value 'emotion3' was never used; consider replacing with assignment to '_' or removing it[0;0m [#no-usage]
+ [0;36m15 |[0;0m         let emotion1 = "curious"
+ [0;36m16 |[0;0m         let emotion2 = "fearless"
+ [0;36m17 |[0;0m         let emotion3 = "unstoppable"
+    [0;36m|[0;0m             `- [1;33mwarning: [1;39minitialization of immutable value 'emotion3' was never used; consider replacing with assignment to '_' or removing it[0;0m [#no-usage]
+ [0;36m18 |[0;0m         
+ [0;36m19 |[0;0m         let story = """
+
+/workspaces/swift-playground-11dit-vta-line-2-2026-albiejgames/Sources/SwiftPlayground/SwiftPlayground.swift:19:13: [1;33mwarning: [1;39minitialization of immutable value 'story' was never used; consider replacing with assignment to '_' or removing it[0;0m [#no-usage]
+ [0;36m17 |[0;0m         let emotion3 = "unstoppable"
+ [0;36m18 |[0;0m         
+ [0;36m19 |[0;0m         let story = """
+    [0;36m|[0;0m             `- [1;33mwarning: [1;39minitialization of immutable value 'story' was never used; consider replacing with assignment to '_' or removing it[0;0m [#no-usage]
+ [0;36m20 |[0;0m         Julius and Ardiene were two students at \(place1), but they were never ordinary.
+ [0;36m21 |[0;0m 
+
+/workspaces/swift-playground-11dit-vta-line-2-2026-albiejgames/Sources/SwiftPlayground/SwiftPlayground.swift:64:5: [1;33mwarning: [1;39minitialization of immutable value 'added2' was never used; consider replacing with assignment to '_' or removing it[0;0m [#no-usage]
+ [0;36m62 |[0;0m 
+ [0;36m63 |[0;0m let added = x + y
+ [0;36m64 |[0;0m let added2 = y + x
+    [0;36m|[0;0m     `- [1;33mwarning: [1;39minitialization of immutable value 'added2' was never used; consider replacing with assignment to '_' or removing it[0;0m [#no-usage]
+ [0;36m65 |[0;0m let subtracted = x - y
+ [0;36m66 |[0;0m let subtracted2 = y - x
+
+/workspaces/swift-playground-11dit-vta-line-2-2026-albiejgames/Sources/SwiftPlayground/SwiftPlayground.swift:66:5: [1;33mwarning: [1;39minitialization of immutable value 'subtracted2' was never used; consider replacing with assignment to '_' or removing it[0;0m [#no-usage]
+ [0;36m64 |[0;0m let added2 = y + x
+ [0;36m65 |[0;0m let subtracted = x - y
+ [0;36m66 |[0;0m let subtracted2 = y - x
+    [0;36m|[0;0m     `- [1;33mwarning: [1;39minitialization of immutable value 'subtracted2' was never used; consider replacing with assignment to '_' or removing it[0;0m [#no-usage]
+ [0;36m67 |[0;0m let multiplied = x * y
+ [0;36m68 |[0;0m let multiplied2 = y * x
+
+/workspaces/swift-playground-11dit-vta-line-2-2026-albiejgames/Sources/SwiftPlayground/SwiftPlayground.swift:68:5: [1;33mwarning: [1;39minitialization of immutable value 'multiplied2' was never used; consider replacing with assignment to '_' or removing it[0;0m [#no-usage]
+ [0;36m66 |[0;0m let subtracted2 = y - x
+ [0;36m67 |[0;0m let multiplied = x * y
+ [0;36m68 |[0;0m let multiplied2 = y * x
+    [0;36m|[0;0m     `- [1;33mwarning: [1;39minitialization of immutable value 'multiplied2' was never used; consider replacing with assignment to '_' or removing it[0;0m [#no-usage]
+ [0;36m69 |[0;0m let divided = x / y
+ [0;36m70 |[0;0m let divided2 = y / x
+
+/workspaces/swift-playground-11dit-vta-line-2-2026-albiejgames/Sources/SwiftPlayground/SwiftPlayground.swift:70:5: [1;33mwarning: [1;39minitialization of immutable value 'divided2' was never used; consider replacing with assignment to '_' or removing it[0;0m [#no-usage]
+ [0;36m68 |[0;0m let multiplied2 = y * x
+ [0;36m69 |[0;0m let divided = x / y
+ [0;36m70 |[0;0m let divided2 = y / x
+    [0;36m|[0;0m     `- [1;33mwarning: [1;39minitialization of immutable value 'divided2' was never used; consider replacing with assignment to '_' or removing it[0;0m [#no-usage]
+ [0;36m71 |[0;0m let modulo = y % x
+ [0;36m72 |[0;0m let modulo2 = x % y
+
+/workspaces/swift-playground-11dit-vta-line-2-2026-albiejgames/Sources/SwiftPlayground/SwiftPlayground.swift:72:5: [1;33mwarning: [1;39minitialization of immutable value 'modulo2' was never used; consider replacing with assignment to '_' or removing it[0;0m [#no-usage]
+ [0;36m70 |[0;0m let divided2 = y / x
+ [0;36m71 |[0;0m let modulo = y % x
+ [0;36m72 |[0;0m let modulo2 = x % y
+    [0;36m|[0;0m     `- [1;33mwarning: [1;39minitialization of immutable value 'modulo2' was never used; consider replacing with assignment to '_' or removing it[0;0m [#no-usage]
+ [0;36m73 |[0;0m 
+ [0;36m74 |[0;0m print("Added: \(added)")
+[2K[4/6] Compiling SwiftPlayground SwiftPlayground.swift[2K[5/6] Compiling SwiftPlayground SwiftPlayground.swift[2K[5/7] Compiling SwiftPlayground SwiftPlayground.swift[2K[5/8] Compiling SwiftPlayground SwiftPlayground.swift[2K[5/7] Compiling SwiftPlayground SwiftPlayground.swift[2K[5/7] Write Objects.LinkFileList[2K[6/7] Write Objects.LinkFileList[2K[6/7] Linking SwiftPlayground[2K[7/7] Linking SwiftPlayground
+[2KBuild of product 'SwiftPlayground' complete! (0.61s)
+Added: 15
+Added2: 15
+Subtracted: 5
+Multiplied: 50
+Divided: 2
+5 % 10 = 5
+3.7
+15.0
+Enter your name:
+Albert
+your name is Albert
+false
+[?2004h]0;root@codespaces-c32bc7: /workspaces/swift-playground-11dit-vta-line-2-2026-albiejgamesroot@codespaces-c32bc7:/workspaces/swift-playground-11dit-vta-line-2-2026-albiejgames# swif  t run
+[?2004l[2KBuilding for debugging...
+[2K[0/3] Write sources[2K[1/3] Write sources[2K[1/3] Write swift-version-24593BA9C3E375BF.txt[2K[2/3] Write swift-version-24593BA9C3E375BF.txt[2K[2/4] Write swift-version-24593BA9C3E375BF.txt[2K[2/5] Write swift-version-24593BA9C3E375BF.txt[2K[3/5] Emitting module SwiftPlayground[2K[4/5] Compiling SwiftPlayground SwiftPlayground.swift[2K/workspaces/swift-playground-11dit-vta-line-2-2026-albiejgames/Sources/SwiftPlayground/SwiftPlayground.swift:100:25: [1;31merror: [1;39mconsecutive statements on a line must be separated by ';'[0;0m
+ [0;36m98 |[0;0m    let userInput = readLine ()!
+ [0;36m99 |[0;0m    let age = Int(userInput)!
+[0;36m100 |[0;0m    let isOldEnough = age >=18
+    [0;36m|[0;0m                         `- [1;31merror: [1;39mconsecutive statements on a line must be separated by ';'[0;0m
+[0;36m101 |[0;0m    print (isOldEnough)
+[0;36m102 |[0;0m 
+
+/workspaces/swift-playground-11dit-vta-line-2-2026-albiejgames/Sources/SwiftPlayground/SwiftPlayground.swift:100:8: [1;31merror: [1;39minvalid redeclaration of 'isOldEnough'[0;0m
+ [0;36m92 |[0;0m     print ("your name is \(firstName)")
+ [0;36m93 |[0;0m     
+ [0;36m94 |[0;0m     let isOldEnough = 16 >= 18
+    [0;36m|[0;0m         `- [1;39mnote: [1;39m'isOldEnough' previously declared here[0;0m
+ [0;36m95 |[0;0m     print (isOldEnough)
+ [0;36m96 |[0;0m 
+    [0;36m:[0;0m
+ [0;36m98 |[0;0m    let userInput = readLine ()!
+ [0;36m99 |[0;0m    let age = Int(userInput)!
+[0;36m100 |[0;0m    let isOldEnough = age >=18
+    [0;36m|[0;0m        `- [1;31merror: [1;39minvalid redeclaration of 'isOldEnough'[0;0m
+[0;36m101 |[0;0m    print (isOldEnough)
+[0;36m102 |[0;0m 
+
+/workspaces/swift-playground-11dit-vta-line-2-2026-albiejgames/Sources/SwiftPlayground/SwiftPlayground.swift:100:26: [1;31merror: [1;39m'>=' is not a prefix unary operator[0;0m
+ [0;36m98 |[0;0m    let userInput = readLine ()!
+ [0;36m99 |[0;0m    let age = Int(userInput)!
+[0;36m100 |[0;0m    let isOldEnough = age >=18
+    [0;36m|[0;0m                          `- [1;31merror: [1;39m'>=' is not a prefix unary operator[0;0m
+[0;36m101 |[0;0m    print (isOldEnough)
+[0;36m102 |[0;0m 
+
+[?2004h]0;root@codespaces-c32bc7: /workspaces/swift-playground-11dit-vta-line-2-2026-albiejgamesroot@codespaces-c32bc7:/workspaces/swift-playground-11dit-vta-line-2-2026-albiejgames# swift runSwift runswift runsw=            swift run
+[?2004l[2KBuilding for debugging...
+[2K[0/3] Write sources[2K[1/3] Write sources[2K[1/3] Write swift-version-24593BA9C3E375BF.txt[2K[2/3] Write swift-version-24593BA9C3E375BF.txt[2K[2/4] Write swift-version-24593BA9C3E375BF.txt[2K[2/5] Write swift-version-24593BA9C3E375BF.txt[2K[3/5] Emitting module SwiftPlayground[2K[4/5] Compiling SwiftPlayground SwiftPlayground.swift[2K/workspaces/swift-playground-11dit-vta-line-2-2026-albiejgames/Sources/SwiftPlayground/SwiftPlayground.swift:5:13: [1;33mwarning: [1;39minitialization of immutable value 'character1' was never used; consider replacing with assignment to '_' or removing it[0;0m [#no-usage]
+  [0;36m3 |[0;0m     static func main() {
+  [0;36m4 |[0;0m 
+  [0;36m5 |[0;0m         let character1 = "Julius"
+    [0;36m|[0;0m             `- [1;33mwarning: [1;39minitialization of immutable value 'character1' was never used; consider replacing with assignment to '_' or removing it[0;0m [#no-usage]
+  [0;36m6 |[0;0m         let character2 = "Ardiene"
+  [0;36m7 |[0;0m         let place1 = "Onslow College"
+
+/workspaces/swift-playground-11dit-vta-line-2-2026-albiejgames/Sources/SwiftPlayground/SwiftPlayground.swift:6:13: [1;33mwarning: [1;39minitialization of immutable value 'character2' was never used; consider replacing with assignment to '_' or removing it[0;0m [#no-usage]
+  [0;36m4 |[0;0m 
+  [0;36m5 |[0;0m         let character1 = "Julius"
+  [0;36m6 |[0;0m         let character2 = "Ardiene"
+    [0;36m|[0;0m             `- [1;33mwarning: [1;39minitialization of immutable value 'character2' was never used; consider replacing with assignment to '_' or removing it[0;0m [#no-usage]
+  [0;36m7 |[0;0m         let place1 = "Onslow College"
+  [0;36m8 |[0;0m         let place2 = "The Underground Server Room"
+
+/workspaces/swift-playground-11dit-vta-line-2-2026-albiejgames/Sources/SwiftPlayground/SwiftPlayground.swift:17:13: [1;33mwarning: [1;39minitialization of immutable value 'emotion3' was never used; consider replacing with assignment to '_' or removing it[0;0m [#no-usage]
+ [0;36m15 |[0;0m         let emotion1 = "curious"
+ [0;36m16 |[0;0m         let emotion2 = "fearless"
+ [0;36m17 |[0;0m         let emotion3 = "unstoppable"
+    [0;36m|[0;0m             `- [1;33mwarning: [1;39minitialization of immutable value 'emotion3' was never used; consider replacing with assignment to '_' or removing it[0;0m [#no-usage]
+ [0;36m18 |[0;0m         
+ [0;36m19 |[0;0m         let story = """
+
+/workspaces/swift-playground-11dit-vta-line-2-2026-albiejgames/Sources/SwiftPlayground/SwiftPlayground.swift:19:13: [1;33mwarning: [1;39minitialization of immutable value 'story' was never used; consider replacing with assignment to '_' or removing it[0;0m [#no-usage]
+ [0;36m17 |[0;0m         let emotion3 = "unstoppable"
+ [0;36m18 |[0;0m         
+ [0;36m19 |[0;0m         let story = """
+    [0;36m|[0;0m             `- [1;33mwarning: [1;39minitialization of immutable value 'story' was never used; consider replacing with assignment to '_' or removing it[0;0m [#no-usage]
+ [0;36m20 |[0;0m         Julius and Ardiene were two students at \(place1), but they were never ordinary.
+ [0;36m21 |[0;0m 
+
+/workspaces/swift-playground-11dit-vta-line-2-2026-albiejgames/Sources/SwiftPlayground/SwiftPlayground.swift:64:5: [1;33mwarning: [1;39minitialization of immutable value 'added2' was never used; consider replacing with assignment to '_' or removing it[0;0m [#no-usage]
+ [0;36m62 |[0;0m 
+ [0;36m63 |[0;0m let added = x + y
+ [0;36m64 |[0;0m let added2 = y + x
+    [0;36m|[0;0m     `- [1;33mwarning: [1;39minitialization of immutable value 'added2' was never used; consider replacing with assignment to '_' or removing it[0;0m [#no-usage]
+ [0;36m65 |[0;0m let subtracted = x - y
+ [0;36m66 |[0;0m let subtracted2 = y - x
+
+/workspaces/swift-playground-11dit-vta-line-2-2026-albiejgames/Sources/SwiftPlayground/SwiftPlayground.swift:66:5: [1;33mwarning: [1;39minitialization of immutable value 'subtracted2' was never used; consider replacing with assignment to '_' or removing it[0;0m [#no-usage]
+ [0;36m64 |[0;0m let added2 = y + x
+ [0;36m65 |[0;0m let subtracted = x - y
+ [0;36m66 |[0;0m let subtracted2 = y - x
+    [0;36m|[0;0m     `- [1;33mwarning: [1;39minitialization of immutable value 'subtracted2' was never used; consider replacing with assignment to '_' or removing it[0;0m [#no-usage]
+ [0;36m67 |[0;0m let multiplied = x * y
+ [0;36m68 |[0;0m let multiplied2 = y * x
+
+/workspaces/swift-playground-11dit-vta-line-2-2026-albiejgames/Sources/SwiftPlayground/SwiftPlayground.swift:68:5: [1;33mwarning: [1;39minitialization of immutable value 'multiplied2' was never used; consider replacing with assignment to '_' or removing it[0;0m [#no-usage]
+ [0;36m66 |[0;0m let subtracted2 = y - x
+ [0;36m67 |[0;0m let multiplied = x * y
+ [0;36m68 |[0;0m let multiplied2 = y * x
+    [0;36m|[0;0m     `- [1;33mwarning: [1;39minitialization of immutable value 'multiplied2' was never used; consider replacing with assignment to '_' or removing it[0;0m [#no-usage]
+ [0;36m69 |[0;0m let divided = x / y
+ [0;36m70 |[0;0m let divided2 = y / x
+
+/workspaces/swift-playground-11dit-vta-line-2-2026-albiejgames/Sources/SwiftPlayground/SwiftPlayground.swift:70:5: [1;33mwarning: [1;39minitialization of immutable value 'divided2' was never used; consider replacing with assignment to '_' or removing it[0;0m [#no-usage]
+ [0;36m68 |[0;0m let multiplied2 = y * x
+ [0;36m69 |[0;0m let divided = x / y
+ [0;36m70 |[0;0m let divided2 = y / x
+    [0;36m|[0;0m     `- [1;33mwarning: [1;39minitialization of immutable value 'divided2' was never used; consider replacing with assignment to '_' or removing it[0;0m [#no-usage]
+ [0;36m71 |[0;0m let modulo = y % x
+ [0;36m72 |[0;0m let modulo2 = x % y
+
+/workspaces/swift-playground-11dit-vta-line-2-2026-albiejgames/Sources/SwiftPlayground/SwiftPlayground.swift:72:5: [1;33mwarning: [1;39minitialization of immutable value 'modulo2' was never used; consider replacing with assignment to '_' or removing it[0;0m [#no-usage]
+ [0;36m70 |[0;0m let divided2 = y / x
+ [0;36m71 |[0;0m let modulo = y % x
+ [0;36m72 |[0;0m let modulo2 = x % y
+    [0;
