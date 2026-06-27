@@ -10,14 +10,14 @@ struct SwiftPlayground {
 
         let timeLimit = readLine()!
         // todo: need to make sure this is a number
-        print(timeLimit)
+        //print(timeLimit)
         print ("")
         
+        //set up weekday array
         let weekdays: [String] = ["Monday","Tuesday","Wednesday"]
 
-        //print(weekdays)
         weekdays.forEach { weekday in
-            print("On ", weekday, ",how many hours did you spend on:")
+            print("On",weekday,",how many hours did you spend on:")
         }
     }
 }
