@@ -13,8 +13,10 @@ struct SwiftPlayground {
         print(timeLimit)
         print ("")
         
-        var weekdays: [String] = ["Monday","Tuesday","Wednesday"]
-        
+        let weekdays: [String] = ["Monday","Tuesday","Wednesday"]
+
+        print(weekdays)
+
         print ("On Monday, how many hours did you spend on:") 
 
         
