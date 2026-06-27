@@ -19,7 +19,7 @@ struct SwiftPlayground {
         weekDays.forEach { weekDay in
             print("On",weekDay,",how many hours did you spend on:")
 
-            let socialMedia: [String] = ["M`"]
+            let socialMedia: [String] = ["Facebook", "Snapchat"", "Instagram", "Discord",]
         }
     }
 }
