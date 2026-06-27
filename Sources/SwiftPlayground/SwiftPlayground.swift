@@ -22,10 +22,10 @@ struct SwiftPlayground {
             //let socialMedia: [String] = ["Facebook", "Snapchat", "Instagram", "Discord","Other"]
 
             print("Facebook:")
-            let facebook: Int = readLine()!
+            let facebook = readLine()!
             print("Snapchat:")
-            let snapchat: Int = readLine()!
-            Int timeSpent = (facebook + snapchat)
+            let snapchat = readLine()!
+            let timeSpent = (facebook + snapchat)
             print("Overall you spent:", timeSpent)
         }
     }
