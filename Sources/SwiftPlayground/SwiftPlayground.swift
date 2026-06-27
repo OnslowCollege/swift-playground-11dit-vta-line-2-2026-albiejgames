@@ -8,7 +8,9 @@ struct SwiftPlayground {
         print("")
         print ("What is the time limit set for each day?")
 
-        let timeLimit = readLine()!
+        var timeLimit = readLine()!
+        
+        print(timeLimit)
         print ("")
         print ("On Monday, how many hours did you spend on:") 
 
