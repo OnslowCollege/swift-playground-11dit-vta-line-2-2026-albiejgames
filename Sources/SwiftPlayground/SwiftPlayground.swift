@@ -3,7 +3,11 @@ import Foundation
 @main 
 struct SwiftPlayground { 
     static func main() {
+   
     // Practice assessment
-        print("hello, world")
+        print("Welcome to the screen time tracker!")
+    
+    print ("What is the time limit set for each day")
+     
     }
-}
+} 
