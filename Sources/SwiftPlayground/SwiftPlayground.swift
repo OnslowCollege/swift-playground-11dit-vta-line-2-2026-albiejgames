@@ -11,6 +11,7 @@ struct SwiftPlayground {
         let timeLimit = readLine()!
         print ("")
         print ("On Monday, how many hours did you spend on:") 
-        
+
+        else "pleae"
     }
 }
