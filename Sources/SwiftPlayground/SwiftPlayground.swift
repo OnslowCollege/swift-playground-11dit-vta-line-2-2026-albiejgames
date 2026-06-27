@@ -15,10 +15,9 @@ struct SwiftPlayground {
         
         let weekdays: [String] = ["Monday","Tuesday","Wednesday"]
 
-        print(weekdays)
-
-        print ("On Monday, how many hours did you spend on:") 
-
-        
+        //print(weekdays)
+        weekdays.forEach { weekday in
+            print("On ", weekday, ",how many hours did you spend on:")
+        }
     }
 }
