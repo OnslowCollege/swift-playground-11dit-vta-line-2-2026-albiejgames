@@ -22,6 +22,7 @@ struct SwiftPlayground {
             //let socialMedia: [String] = ["Facebook", "Snapchat", "Instagram", "Discord","Other"]
 
             print("Facebook:")
+            //need to get these as integers
             let facebook = readLine()!
             print("Snapchat:")
             let snapchat = readLine()!
