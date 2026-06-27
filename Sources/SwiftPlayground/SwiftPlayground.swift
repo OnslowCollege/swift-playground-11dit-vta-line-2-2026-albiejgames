@@ -7,6 +7,6 @@ struct SwiftPlayground {
         print("Welcome to the screen time tracker!")
         print("")
         print ("What is the time limit set for each day?")
-     
+        
     }
 }
