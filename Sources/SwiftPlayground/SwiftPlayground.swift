@@ -25,7 +25,6 @@ struct SwiftPlayground {
             let facebook = readLine()!
             print("Snapchat:")
             let snapchat = readLine()!
-
             let timeSpent = facebook + snapchat
             print("Overall you spent:", timeSpent)
         }
