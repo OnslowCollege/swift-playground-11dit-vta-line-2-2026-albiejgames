@@ -12,6 +12,9 @@ struct SwiftPlayground {
         // todo: need to make sure this is a number
         print(timeLimit)
         print ("")
+        
+        var weekdays: [String] = ["Monday","Tuesday","Wednesday"]
+        
         print ("On Monday, how many hours did you spend on:") 
 
         
