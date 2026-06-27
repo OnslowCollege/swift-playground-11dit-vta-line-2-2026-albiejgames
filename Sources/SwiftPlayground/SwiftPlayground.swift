@@ -14,10 +14,12 @@ struct SwiftPlayground {
         print ("")
         
         //set up weekday array
-        let weekdays: [String] = ["Monday","Tuesday","Wednesday"]
+        let weekDays: [String] = ["Monday","Tuesday","Wednesday"]
 
-        weekdays.forEach { weekday in
-            print("On",weekday,",how many hours did you spend on:")
+        weekDays.forEach { weekDay in
+            print("On",weekDay,",how many hours did you spend on:")
+
+            let socialMedia: [String] = ["M`"]
         }
     }
 }
